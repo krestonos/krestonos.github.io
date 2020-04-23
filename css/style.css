@@ -78,6 +78,7 @@ h1 {
 	margin-bottom: 30px;
 }
 .buttum-active {
+	background: transparent;
 }
 .btn1 {
 	font-family: Roboto;
