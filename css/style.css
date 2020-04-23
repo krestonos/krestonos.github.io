@@ -78,10 +78,9 @@ h1 {
 	margin-bottom: 30px;
 }
 .buttum-active {
-	background: transparent;
 }
 .btn1 {
-	background: transparent;
+	background-color: transparent;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;
@@ -96,7 +95,7 @@ h1 {
 	padding: 22px 44px 21px 23px;
 }
 .btn2 {
-	background: transparent;
+	background-color: transparent;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;
