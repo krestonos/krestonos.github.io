@@ -2,19 +2,14 @@
 .column {
   display: flex;
 }
-.column1 {
-}
 .column1__foto {
   width: 638px;
   height: 850px;
   margin-right: 40px;
 }
-.column2 {
-}
 .logo {
   margin-top: 21px;
 }
-
 .column2__navbar {
   display: flex;
   justify-content: space-between;
@@ -26,13 +21,13 @@
   margin-top: 30px;
   margin-right: 125px;
 }
-
 /*стрелка */
 .w1 {
   position: absolute;
   justify-content: center;
   align-items: center;
   left: 10px;
+  /*коммит */
   top: 1px;
 }
 /*корзина */
@@ -94,8 +89,6 @@ h1 {
   line-height: 47px;
   color: #000000;
   margin-bottom: 30px;
-}
-.buttum-active {
 }
 .razmer {
   margin-top: 5px;
