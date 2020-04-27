@@ -14,6 +14,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .shopping__bashet {
   position: relative;
   width: 30px;
@@ -168,4 +169,33 @@ p {
 .last-text {
   width: 357px;
   height: 96px;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 767px) {
+  .column {
+    display: block;
+  }
+}
+@media (max-width: 420px) {
+  .column {
+    display: block;
+  }
+  h1 {
+    text-align: center;
+  }
+  .btn {
+    display: block;
+  }
+  .btn1 {
+    margin: 20px;
+  }
+  .btn2 {
+    margin: 20px;
+  }
+  .text-other {
+    display: block;
+  }
 }
