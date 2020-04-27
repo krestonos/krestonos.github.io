@@ -183,13 +183,19 @@ p {
   .column {
     display: block;
   }
+  .column2 {
+    margin: 10px;
+  }
+  .shopping__bashet {
+    margin-right: 10px;
+  }
   h1 {
     text-align: center;
   }
   .btn {
-    display: block;
+    margin-top: 30px;
   }
-  .btn1 {
+  button.btn1 {
     margin: 20px;
   }
   .btn2 {
