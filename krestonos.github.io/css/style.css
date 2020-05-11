@@ -1,0 +1,417 @@
+@charset "UTF-8";
+
+/*Обнуление*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;
+
+500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.column1__foto {
+  max-width: 638px;
+  max-height: 850px;
+  margin-right: 40px;
+}
+
+.logo {
+  margin-top: 21px;
+}
+
+.column2__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shopping__bashet {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-top: 30px;
+  margin-right: 125px;
+}
+
+/*стрелка */
+
+.w1 {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 10px;
+  /*коммит */
+  top: 1px;
+}
+
+/*корзина */
+
+.e2 {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.r3 {
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 7px;
+  left: 6px;
+}
+
+.t4 {
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 7px;
+  left: 13px;
+}
+
+.btn {
+  margin-top: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 43px;
+  height: 14px;
+}
+
+.btn img {
+  height: 14px;
+}
+
+.btn a {
+  margin-left: 10px;
+  float: right;
+  height: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.666667px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-top: 59px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.razmer {
+  margin-top: 5px;
+  margin-left: 11px;
+  padding-right: 22px;
+}
+
+.btn1 {
+  background-color: transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+  border: 2px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  padding-left: 23px;
+}
+
+.btn2 {
+  background-color: transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c4c4c4;
+  border: 2px solid #cbcbcb;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 22px 78px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+
+.text-other {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+bold {
+  font-weight: bold;
+}
+
+.p-text1 {
+  width: 357px;
+  height: 100px;
+  margin-right: 104px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.text-other1 p {
+  margin-right: 38px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a3a3a3;
+}
+
+.text-other2 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.last-text {
+  width: 357px;
+  height: 96px;
+}
+
+/*.column2 {
+    width: 50%;
+  }*/
+
+@media (max-width: 1350px) {
+  .text-other {
+    display: block;
+  }
+
+  .text-pro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 30px;
+  }
+
+  .column1__foto {
+    width: 70%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  /*.column1__foto {
+    max-width: 319px;
+    max-height: 425px;
+    margin-right: 0;*/
+}
+
+@media (max-width: 940px) {
+  .btn {
+    margin-top: 30px;
+  }
+
+  button.btn1 {
+    margin: 20px;
+  }
+
+  .btn2 {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .column {
+    display: block;
+  }
+
+  .column1 {
+    display: inline;
+    margin: 0 auto;
+  }
+
+  .column1__foto {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) and (max-width: 515px) {
+  .column {
+    display: block;
+  }
+
+  .column2 {
+    margin: 10px;
+  }
+
+  .shopping__bashet {
+    margin-right: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .btn {
+    margin-top: 30px;
+  }
+
+  button.btn1 {
+    margin: 20px;
+  }
+
+  .btn2 {
+    margin: 20px;
+  }
+
+  .text-other {
+    display: block;
+  }
+}
