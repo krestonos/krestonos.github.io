@@ -8,10 +8,12 @@
 	}
 }
 
-@import "fonts";
+//================= Подключение обнуляющего стиля =================
 @import "return";
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap");
+//================= Подключение шрифтов =================
+@import "fonts";
+
 .column {
 	display: flex;
 }
